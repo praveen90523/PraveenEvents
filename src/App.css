@@ -1,0 +1,12 @@
+*{
+    margin-bottom: 0px !important ;
+}
+.Toastify__toast-container {
+  position: fixed !important;
+  z-index: 999999 !important;
+  top: 1rem !important;
+}
+
+.Toastify__toast {
+  margin-bottom: 0.75rem !important;
+}
