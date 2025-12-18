@@ -11,8 +11,8 @@ const Blogs1 = () => {
     <section className="bg-white py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
 
-        {/* Breadcrumb */}
-        <div className="flex items-center gap-2 text-sm text-gray-600 mb-6 sm:mb-8">
+       
+        <div className="flex items-center gap-2 text-sm text-gray-600 mb-6 sm:mb-8 py-4">
           <button 
             onClick={() => handleNavigation("/")}
             className="hover:text-[#FF4500] transition-colors"
@@ -30,10 +30,10 @@ const Blogs1 = () => {
           <span className="text-gray-900">Current Post</span>
         </div>
 
-        {/* Blog Title */}
+      
         <div className="mb-8 sm:mb-12">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-black mb-4 leading-tight text-center">
-            How Ajith Events Can Simplify Your Event Planning Process
+            How Praveen Events Can Simplify Your Event Planning Process
           </h1>
           <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4 text-sm text-gray-600">
             <div className="flex items-center gap-2">
@@ -52,7 +52,7 @@ const Blogs1 = () => {
           </div>
         </div>
 
-        {/* Blog Banner Image */}
+     
         <div className="relative mb-12 sm:mb-16 lg:mb-20 group py-4">
           <div className="absolute inset-0 bg-[#FF4500]/10 rounded-3xl blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
           <img
@@ -63,13 +63,13 @@ const Blogs1 = () => {
           <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent rounded-2xl sm:rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
         </div>
 
-        {/* Blog Content */}
+     
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-12 mb-12 sm:mb-16">
 
           {[
             {
               title: "Comprehensive Planning from Start to Finish",
-              text: "At Ajith, we believe that every event should be a reflection of your vision and style. Our planners manage everything from concept creation to execution, ensuring a stress-free experience.",
+              text: "At Praveen, we believe that every event should be a reflection of your vision and style. Our planners manage everything from concept creation to execution, ensuring a stress-free experience.",
               icon: "M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"
             },
             {
@@ -94,7 +94,7 @@ const Blogs1 = () => {
             },
             {
               title: "Conclusion",
-              text: "With Ajith Events, event planning becomes a seamless, enjoyable, and memorable experience from start to finish.",
+              text: "With Praveen Events, event planning becomes a seamless, enjoyable, and memorable experience from start to finish.",
               icon: "M5 13l4 4L19 7"
             },
           ].map((item, idx) => (
@@ -102,23 +102,23 @@ const Blogs1 = () => {
               key={idx}
               className="group relative bg-white p-6 sm:p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border-2 border-gray-100 hover:border-[#FF4500]"
             >
-              {/* Decorative gradient */}
+            
               <div className="absolute inset-0 bg-gradient-to-br from-[#FF4500]/5 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               
               <div className="relative">
-                {/* Icon */}
+               
                 <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-black group-hover:bg-[#FF4500] flex items-center justify-center mb-4 sm:mb-5 transition-all duration-300 group-hover:scale-110">
                   <svg className="w-6 h-6 sm:w-7 sm:h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={item.icon} />
                   </svg>
                 </div>
 
-                {/* Title */}
+                
                 <h3 className="text-xl sm:text-2xl font-bold text-black mb-3 sm:mb-4 group-hover:text-[#FF4500] transition-colors duration-300">
                   {item.title}
                 </h3>
 
-                {/* Text */}
+               
                 <p className="text-gray-600 leading-relaxed text-sm sm:text-base">
                   {item.text}
                 </p>
@@ -127,7 +127,7 @@ const Blogs1 = () => {
           ))}
         </div>
 
-        {/* Call to Action Section */}
+      
         <div className="bg-gradient-to-r from-black to-gray-900 rounded-3xl p-8 sm:p-12 text-center text-white mb-12 sm:mb-16 relative overflow-hidden">
           <div className="absolute inset-0 opacity-10">
             <div className="absolute top-0 right-1/4 w-64 h-64 bg-[#FF4500] rounded-full blur-3xl"></div>
@@ -147,7 +147,7 @@ const Blogs1 = () => {
           </div>
         </div>
 
-        {/* Navigation Buttons */}
+       
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 py-4">
           <button
             onClick={() => handleNavigation("/blogs")}

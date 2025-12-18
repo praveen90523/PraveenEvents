@@ -10,7 +10,7 @@ const Blogs = () => {
   const blogPosts = [
     {
       id: 1,
-      title: "How Ajith Events Can Simplify Your Event Planning Process",
+      title: "How Praveen Events Can Simplify Your Event Planning Process",
       image: "https://framerusercontent.com/images/ZN6C9I3xkufl91QnGjKphMlSrI.jpg?scale-down-to=1024",
       excerpt: "Discover proven strategies to streamline your event planning and create unforgettable experiences with ease.",
       date: "December 10, 2024",
@@ -171,7 +171,7 @@ const Blogs = () => {
           </div>
         </div>
 
-        {/* Newsletter CTA */}
+        
         <div className="mt-24 bg-gradient-to-r from-orange-500 to-red-500 rounded-3xl p-12 md:p-16 text-center relative overflow-hidden">
           <div className="absolute inset-0 opacity-10">
             <div className="absolute top-0 left-0 w-64 h-64 bg-white rounded-full blur-2xl" />

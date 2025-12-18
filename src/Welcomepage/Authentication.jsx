@@ -68,7 +68,7 @@ const Authentication = () => {
 
          
             <div className="group bg-gradient-to-br from-orange-50 to-white p-8 rounded-2xl border-2 border-orange-100 hover:border-orange-300 text-center hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer">
-              <div className="text-6xl mb-6 transform group-hover:scale-110 group-hover:rotate-12 transition-transform duration-300">
+              <div className="text-6xl mb-6 transform group-hover:scale-110 group-hover:rotate-0 transition-transform duration-300">
                 📅
               </div>
               <h3 className="text-2xl font-bold mb-3 text-gray-900">
@@ -84,7 +84,7 @@ const Authentication = () => {
 
            
             <div className="group bg-gradient-to-br from-red-50 to-white p-8 rounded-2xl border-2 border-red-100 hover:border-red-300 text-center hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer">
-              <div className="text-6xl mb-6 transform group-hover:scale-110 group-hover:rotate-12 transition-transform duration-300">
+              <div className="text-6xl mb-6 transform group-hover:scale-110 group-hover:rotate-0 transition-transform duration-300">
                 ✅
               </div>
               <h3 className="text-2xl font-bold mb-3 text-gray-900">
@@ -100,7 +100,7 @@ const Authentication = () => {
 
     
             <div className="group bg-gradient-to-br from-pink-50 to-white p-8 rounded-2xl border-2 border-pink-100 hover:border-pink-300 text-center hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer">
-              <div className="text-6xl mb-6 transform group-hover:scale-110 group-hover:rotate-12 transition-transform duration-300">
+              <div className="text-6xl mb-6 transform group-hover:scale-110 group-hover:rotate-0 transition-transform duration-300">
                 👥
               </div>
               <h3 className="text-2xl font-bold mb-3 text-gray-900">
