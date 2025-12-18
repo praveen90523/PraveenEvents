@@ -1,18 +1,19 @@
 import { initializeApp } from "firebase/app";
-import {getAuth} from "firebase/auth"
+import {getAuth} from "firebase/auth";
 import { getDatabase } from "firebase/database";
+
+
 const firebaseConfig = {
-  apiKey: "AIzaSyCMRLbG9OEE7hyWm_1ka_U-aEtVZmtIDyA",
-  authDomain: "praveenevents-78de6.firebaseapp.com",
-  databaseURL: "https://praveenevents-78de6-default-rtdb.firebaseio.com",
-  projectId: "praveenevents-78de6",
-  storageBucket: "praveenevents-78de6.firebasestorage.app",
-  messagingSenderId: "346960835020",
-  appId: "1:346960835020:web:2bae11900c6d3eab52ad69",
-  measurementId: "G-R0YNV3234E"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  databaseURL: import.meta.env.VITE_FIREBASE_DATABASE_URL,
+  measurementId:import.meta.env.VITE_VITE_FIREBASE_MEASUREMENT_ID
 };
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export const author=getAuth(app)
 export const db=getDatabase(app)
