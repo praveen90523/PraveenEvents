@@ -121,7 +121,7 @@ const AboutUs = () => {
             </span>
           </div>
           <p className="max-w-4xl mx-auto text-gray-700 text-lg md:text-xl leading-relaxed">
-            At <span className="font-bold text-orange-500">Ajith Events</span>, we are dedicated to transforming your vision into reality. Our team is committed to delivering exceptional experiences, handling everything from initial concept to final production with creativity, efficiency, and meticulous attention to detail.
+            At <span className="font-bold text-orange-500">Praveen Events</span>, we are dedicated to transforming your vision into reality. Our team is committed to delivering exceptional experiences, handling everything from initial concept to final production with creativity, efficiency, and meticulous attention to detail.
           </p>
         </div>
 
