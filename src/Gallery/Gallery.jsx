@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 const Gallery = () => {
   const [images, setImages] = useState([]);
   const [loading, setLoading] = useState(true);
   const [selectedImage, setSelectedImage] = useState(null);
-
+  const navigate = useNavigate();
   useEffect(() => {
     axios
       .get("https://api.jsonbin.io/v3/b/67fd53fc8960c979a5850737", {
@@ -102,6 +103,7 @@ const Gallery = () => {
                   Let us capture your special moments with the same passion and perfection
                 </p>
                 <button
+                 onClick={() => navigate("/form")}
                   className="
                     bg-white text-orange-500
                     px-6 py-3

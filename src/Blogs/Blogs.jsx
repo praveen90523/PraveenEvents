@@ -74,7 +74,7 @@ const Blogs = () => {
                   <div className="inline-block bg-orange-500 rounded-full px-4 py-1 mb-4">
                     <span className="text-sm font-semibold uppercase tracking-wide">Featured</span>
                   </div>
-                  <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 leading-tight">
+                  <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-4 leading-tight">
                     Creating Memorable Events: A Complete Guide
                   </h2>
                   <p className="text-lg text-gray-200 mb-6 max-w-2xl">
@@ -195,7 +195,7 @@ const Blogs = () => {
                 placeholder="Enter your email"
                 className="flex-1 px-6 py-4 rounded-full text-gray-800 placeholder-gray-500 focus:outline-none focus:ring-4 focus:ring-white focus:ring-opacity-30"
               />
-              <button className="bg-white text-orange-500 px-8 py-4 rounded-full font-bold hover:bg-gray-100 hover:scale-105 transform transition-all duration-300 shadow-xl whitespace-nowrap">
+              <button  onClick={() => navigate("/form")} className="bg-white text-orange-500 px-8 py-4 rounded-full font-bold hover:bg-gray-100 hover:scale-105 transform transition-all duration-300 shadow-xl whitespace-nowrap">
                 Subscribe Now
               </button>
             </div>

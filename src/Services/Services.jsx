@@ -223,6 +223,7 @@ const Services = () => {
               Let's bring your event vision to life with our expert team and comprehensive services
             </p>
             <button
+            onClick={() => navigate("/form")}
               className="
     bg-white text-orange-500
     px-6 py-3

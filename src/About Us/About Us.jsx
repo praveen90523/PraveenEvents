@@ -218,6 +218,7 @@ const AboutUs = () => {
               Let's collaborate to create an extraordinary experience that exceeds your expectations
             </p>
             <button
+            onClick={() => handleNavigate("/form")}
               className="
     bg-white text-orange-500
     px-6 py-3
